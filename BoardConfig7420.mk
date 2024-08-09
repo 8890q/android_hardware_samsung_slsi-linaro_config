@@ -16,8 +16,6 @@
 
 TARGET_LINUX_KERNEL_VERSION := 3.10
 
-TARGET_SOC_BASE := exynos7420
-
 include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
 
 BOARD_USES_EXYNOS5_COMMON_GRALLOC := true
